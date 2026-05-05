@@ -1,0 +1,1 @@
+# Ambos programadores resolvieron el problema, pero el del programador A es más legible y comprensible por otras personas o el mismo programador luego de un tiempo.
