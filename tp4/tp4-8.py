@@ -1,0 +1,4 @@
+celcius = float(input("Ingresa la temperatura en celcius: "))
+
+farenheit = (celcius * (9 / 5)) + 32
+print(f"{celcius}°C equivalen a {farenheit}°F")
