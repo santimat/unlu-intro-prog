@@ -3,7 +3,7 @@ dollar = 1450
 real = 260.3
 euro = 1575.5
 
-balance = 10000
+balance = float(input("Ingrese su balance: "))
 
 print(f"Usted cuenta con ${balance} pesos argentinos eso equivalen a:")
 # round sirve para redondear un tipo de dato flotando, y el 2 es para decirle que queremos 2 decimales
