@@ -12,12 +12,19 @@
 # Escribe un programa en Python que encuentre y muestre por pantalla todas las combinaciones posibles que cumplan con estas tres reglas.
 
 counter = 1
+# este for es de paso 2, para cumplir la condición de que el primer numero debe ser par
 for a in range(0,10, 2):
   for b in range(0,10):
     for c in range(0,10):
+        # el tercer numero mayor que el segundo
         if c > b:
+           # suma de las 3 numeros
            sum = a + b + c
+           # si la suma nos da 15
            if sum == 15:
+            # numero de combinación
             print(f"{counter}")
+            # aumento en uno el contador de combinaciones
             counter += 1
+            # muestro los 3 digitos que funcionan
             print(a,b,c)
