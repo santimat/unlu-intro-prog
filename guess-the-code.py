@@ -16,12 +16,11 @@ counter = 1
 for a in range(0,10, 2):
   for b in range(0,10):
     for c in range(0,10):
+        sum = a + b + c
         # el tercer numero mayor que el segundo
-        if c > b:
-           # suma de las 3 numeros
-           sum = a + b + c
-           # si la suma nos da 15
-           if sum == 15:
+        # si la suma nos da 15
+        if c > b and sum == 15:
+           # suma de los 3 numeros
             # numero de combinación
             print(f"{counter}")
             # aumento en uno el contador de combinaciones
