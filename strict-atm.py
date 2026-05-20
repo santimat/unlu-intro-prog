@@ -19,3 +19,5 @@
 # Por lo tanto, el monto solicitado debe ser obligatoriamente un múltiplo de 500 (ej: 500, 1000, 1500, etc.).
 
 # Éxito: Si el usuario pasa todas estas validaciones, el ciclo se rompe y el programa imprime: "Transacción exitosa. Entregando $ [monto]..."
+
+extract_amount = input("Ingrese el monto que desea retirar\n> ")
