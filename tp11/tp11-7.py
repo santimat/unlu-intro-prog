@@ -31,11 +31,7 @@ def main():
     "Juan Carlos",
     "María Belén",
     "Lucas Agustín",
-    "Ana Clara",
-    "Mariano",
     "Santiago",
-    "santino",
-    "sara",
     "Facundo",
     "Giuliana"]
   busqueda = "sa"
